@@ -1,0 +1,27 @@
+{
+  "name": "xclog-api-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node build/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian-greeson/xclog-api-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brian-greeson/xclog-api-ts/issues"
+  },
+  "homepage": "https://github.com/brian-greeson/xclog-api-ts#readme",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "express": "^4.17.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.5"
+  }
+}
